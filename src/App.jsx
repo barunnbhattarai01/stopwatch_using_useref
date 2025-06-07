@@ -1,11 +1,12 @@
 import { useState } from 'react'
+import Stopwatch from './stopwatch'
 
 function App() {
 
 
   return (
     <>
-    <div className='flex text-6xl'>Hello</div>
+  <Stopwatch/>
      </>
   )
 }
